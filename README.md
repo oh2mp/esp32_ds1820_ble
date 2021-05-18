@@ -1,4 +1,4 @@
-# Simple ESP32 + DS12x20 BLE beacon
+# Simple ESP32 + DS18x20 BLE beacon
 
 An ESP32 based BLE beacon that sends temperature info from a DS18x20 sensor
 
@@ -20,7 +20,7 @@ There are good BLE thermometers on market that are already supported by the soft
 Eg. Ruuvi tag (quite expensive) and Xiaomi Mijia (very cheap but only 0-60°C) 
 
 With a "traditional" DS18x20 you can get temperature range -55 to +125°C cheaply. This may be usable
-if you want to measure temperatures eg. in a sauna, freezer or water tank.
+if you want to measure temperatures eg. in a sauna, a freezer or a water tank.
 
 This sketch supports only one sensor because the Smart RV and BLE2MQTT recognize sensors by the mac address
 of the beacon. If you want to use more than one sensor with one ESP32, this solution might not be the right
