@@ -1,5 +1,5 @@
 /*
- * ESP32 + DS18x80 BLE beacon
+ * ESP32 + DS18x20 BLE beacon
  *
  * See https://github.com/oh2mp/esp32_ds1820_ble
  *
